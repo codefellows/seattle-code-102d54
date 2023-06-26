@@ -2,6 +2,8 @@
 
 Students are going to tell you how to create a brand-new web site with GitHub Pages, with minimal instruction.
 
+Link to Jacob's reading notes: https://github.com/JacobKnaack/reading-notes/
+
 ## Demo Instructions
 
 1. Tell students you are going to collaboratively setup a new web site.
