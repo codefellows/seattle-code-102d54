@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun with JS!</title>
+</head>
+<body>
+  <header>
+    <h1>Fun with JS!</h1>
+  </header>
+  <main>
+    <h2>My Output:</h2>
+    <script>
+      let greeting = 'Hello my name is '; // start of our program
+      let name = prompt('What is your name?'); // a build in function for getting user input.
+      // let likesIceCream = confirm('Do you like Ice cream?');
+
+      // true / false
+      if (name === 'Jacob') {
+        // if the condition is true, then run this code.
+        greeting = 'HEY THERE TEACH ';
+      } else if (name === 'Kassie') {
+        greeting = 'HEY THERE ALSO TEACH '
+      } else {
+        greeting = greeting.toUpperCase();
+      }
+
+      document.write(greeting + name + "!!!"); // end of our program
+    </script>
+  </main>
+</body>
+</html>
