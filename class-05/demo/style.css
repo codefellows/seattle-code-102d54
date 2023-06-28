@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  color: red;
+  width: 300px;
+  margin: 15px auto;
+  /* background-color: grey; */
+}
+
+header {
+  width: 100%;
+  border: thin solid red;
+  background-color: grey;
+}
+
+main {
+  width: 100%;
+  height: 250px;
+  border: thin solid blue;
+}
+
+footer {
+  width: 100%;
+  border: thin solid purple;
+}
+
+.panel {
+  width: 50px;
+  height: 100%;
+  margin: 0px 10px;
+  background-color: orange;
+  display: inline-block;
+}
+
+/* main div {
+  width: 50px;
+  height: 100%;
+  margin: 0px 10px;
+  background-color: orange;
+  display: inline-block;
+} */
+
+section {
+  vertical-align: top;
+  width: 250px; 
+  height: 100%;
+  border: thin solid green;
+  display: inline-block;
+}
